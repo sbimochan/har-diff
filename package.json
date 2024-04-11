@@ -1,0 +1,23 @@
+{
+  "name": "har-diff",
+  "version": "1.0.0",
+  "description": "Generate data differences from HTTP archive files",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbimochan/har-diff.git"
+  },
+  "keywords": [
+    "har",
+    "diff"
+  ],
+  "author": "Bimochan Shrestha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbimochan/har-diff/issues"
+  },
+  "homepage": "https://github.com/sbimochan/har-diff#readme"
+}
