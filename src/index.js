@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 
 import { makeFolder } from './folder.js';
-import { processMock } from './process.js';
+import { processDiff, processMock } from './process.js';
 
 const sourceFile = 'source.har';
 const sourceFolder = 'source';
@@ -22,11 +22,15 @@ inquirer
     const { baseUrl } = answers;
     makeFolder(sourceFolder);
     makeFolder(targetFolder);
-
-    processMock(sourceFile, sourceFolder, baseUrl);
-    processMock(targetFile, targetFolder, baseUrl);
+    genDiff(baseUrl);
   })
   .catch((error) => {
     console.error('Error occurred:', error);
     process.exit(1);
   });
+
+async function genDiff(baseUrl) {
+  await processMock(sourceFile, sourceFolder, baseUrl);
+  await processMock(targetFile, targetFolder, baseUrl);
+  processDiff();
+}
