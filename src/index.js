@@ -1,33 +1,32 @@
-import inquirer from 'inquirer'
-import { exec } from 'child_process'
+import inquirer from 'inquirer';
 
 import { makeFolder } from './folder.js';
 import { processDiff } from './process.js';
 
-const sourceFile = 'source.har'
-const sourceFolder = 'source'
-const targetFile = 'target.har'
-const targetFolder = 'target'
+const sourceFile = 'source.har';
+const sourceFolder = 'source';
+const targetFile = 'target.har';
+const targetFolder = 'target';
 
 const questions = [
   {
     type: 'input',
     name: 'baseUrl',
-    message: 'Enter base URL:'
-  }
+    message: 'Enter base URL:',
+  },
 ];
 
-inquirer.prompt(questions)
-  .then(answers => {
+inquirer
+  .prompt(questions)
+  .then((answers) => {
     const { baseUrl } = answers;
-    makeFolder(sourceFolder)
-    makeFolder(targetFolder)
+    makeFolder(sourceFolder);
+    makeFolder(targetFolder);
 
-    processDiff(sourceFile, sourceFolder, baseUrl)
-    processDiff(targetFile, targetFolder, baseUrl)
-
+    processDiff(sourceFile, sourceFolder, baseUrl);
+    processDiff(targetFile, targetFolder, baseUrl);
   })
-  .catch(error => {
+  .catch((error) => {
     console.error('Error occurred:', error);
     process.exit(1);
   });
