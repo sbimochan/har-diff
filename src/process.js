@@ -1,10 +1,10 @@
-import { exec } from 'child_process';
+import { execSync } from 'child_process';
 
 export function processMock(file, folder, url) {
   const mockGenerator = `npx har-to-mocks ./${file} ./${folder} --url=${url}`;
 
   return new Promise((resolve, reject) => {
-    exec(mockGenerator, (error, stdout) => {
+    execSync(mockGenerator, (error, stdout) => {
       if (error) {
         console.error(`Error executing npm script: ${error.message}`);
         return reject(error);
@@ -14,7 +14,7 @@ export function processMock(file, folder, url) {
     });
     console.log('Mocks generated');
     console.log('Sorting all json files');
-    exec(`npx json-sort-cli ${folder}*`, (error) => {
+    execSync(`npx json-sort-cli ${folder}*`, (error) => {
       if (error) return reject(error);
 
       if (stderr) return reject(stderr);
@@ -24,8 +24,8 @@ export function processMock(file, folder, url) {
 }
 
 export function processDiff() {
-  exec(`git add source target`);
+  execSync(`git add source target`);
   console.log('Stage source and target files');
-  exec(`git commit -m "Temp commit of source and target folder ${Date.now()})}"`);
-  exec(`mv source/* target/`);
+  execSync(`git commit -m "Temp commit of source and target folder ${Date.now()})}"`);
+  execSync(`mv source/* target/`);
 }
