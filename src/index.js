@@ -4,17 +4,12 @@ import { exec } from 'child_process'
 import { makeFolder } from './folder.js';
 import { processDiff } from './process.js';
 
+const sourceFile = 'source.har'
+const sourceFolder = 'source'
+const targetFile = 'target.har'
+const targetFolder = 'target'
+
 const questions = [
-  {
-    type: 'input',
-    name: 'sourceFile',
-    message: 'Enter source file name:',
-  },
-  {
-    type: 'input',
-    name: 'targetFile',
-    message: 'Enter target file name:',
-  },
   {
     type: 'input',
     name: 'baseUrl',
@@ -22,13 +17,9 @@ const questions = [
   }
 ];
 
-// Prompt the user for source and target file names
 inquirer.prompt(questions)
   .then(answers => {
-    const { sourceFile, targetFile, baseUrl } = answers;
-    const sourceFolder = sourceFile.replace('.har', '');
-    const targetFolder = targetFile.replace('.har', '');
-
+    const { baseUrl } = answers;
     makeFolder(sourceFolder)
     makeFolder(targetFolder)
 
