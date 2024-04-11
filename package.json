@@ -4,8 +4,9 @@
   "description": "Generate data differences from HTTP archive files",
   "main": "index.js",
   "scripts": {
-    "process": "node src/index.js",
-    "prettify": "prettier . --write"
+    "diff": "node src/index.js",
+    "prettify": "prettier . --write",
+    "flush": "git reset HEAD~1"
   },
   "repository": {
     "type": "git",
