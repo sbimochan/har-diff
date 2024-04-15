@@ -1,10 +1,11 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
 
-export function makeFolder(folderPath) {
-  fs.access(folderPath, fs.constants.F_OK, (err) => {
+export async function makeFolder(folderPath) {
+  console.log(folderPath)
+  await fs.accessSync(folderPath, fs.constants.F_OK, async (err) => {
     if (!err) {
-      execSync(`rm -rf ${folderPath}`, (error, stdout, stderr) => {
+      await execSync(`rm -rf ${folderPath}`, async(error, stdout, stderr) => {
         if (error) {
           console.error(`Error deleting folder: ${error.message}`);
           return;
@@ -14,16 +15,16 @@ export function makeFolder(folderPath) {
           return;
         }
         console.log(` ${folderPath} Folder deleted`);
-        createFolder(folderPath);
+        await createFolder(folderPath);
       });
     } else {
-      createFolder(folderPath);
+      await createFolder(folderPath);
     }
   });
 }
 
-function createFolder(folderPath) {
-  execSync(`mkdir ${folderPath}`, (error, stdout, stderr) => {
+async function createFolder(folderPath) {
+  await execSync(`mkdir ${folderPath}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error creating folder: ${error.message}`);
       return;

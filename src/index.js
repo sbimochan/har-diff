@@ -13,24 +13,30 @@ const questions = [
     type: 'input',
     name: 'baseUrl',
     message: 'Enter base URL:',
+    default: 'https://api.dev.laudio.io'
   },
 ];
 
-inquirer
-  .prompt(questions)
-  .then((answers) => {
-    const { baseUrl } = answers;
-    makeFolder(sourceFolder);
-    makeFolder(targetFolder);
-    genDiff(baseUrl);
-  })
-  .catch((error) => {
-    console.error('Error occurred:', error);
-    process.exit(1);
-  });
+async function main() {
+  inquirer
+    .prompt(questions)
+    .then(async (answers) => {
+      const { baseUrl } = answers;
+      await makeFolder(sourceFolder);
+      await makeFolder(targetFolder);
+      await genDiff(baseUrl);
+    })
+    .catch((error) => {
+      console.error('Error occurred:', error);
+      process.exit(1);
+    });
+}
+
 
 async function genDiff(baseUrl) {
   await processMock(sourceFile, sourceFolder, baseUrl);
   await processMock(targetFile, targetFolder, baseUrl);
-  processDiff();
+  await processDiff();
 }
+
+main()
