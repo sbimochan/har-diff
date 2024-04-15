@@ -13,7 +13,7 @@ const questions = [
     type: 'input',
     name: 'baseUrl',
     message: 'Enter base URL:',
-    default: 'https://api.dev.laudio.io'
+    default: 'https://sample.com/api/'
   },
 ];
 
@@ -22,8 +22,7 @@ async function main() {
     .prompt(questions)
     .then(async (answers) => {
       const { baseUrl } = answers;
-      await makeFolder(sourceFolder);
-      await makeFolder(targetFolder);
+      await Promise.all([makeFolder(sourceFolder), makeFolder(targetFolder)]);
       await genDiff(baseUrl);
     })
     .catch((error) => {
@@ -32,11 +31,9 @@ async function main() {
     });
 }
 
-
 async function genDiff(baseUrl) {
-  await processMock(sourceFile, sourceFolder, baseUrl);
-  await processMock(targetFile, targetFolder, baseUrl);
+  await Promise.all([processMock(sourceFile, sourceFolder, baseUrl), processMock(targetFile, targetFolder, baseUrl)]);
   await processDiff();
 }
 
-main()
+main();

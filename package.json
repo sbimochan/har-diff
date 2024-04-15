@@ -6,7 +6,8 @@
   "scripts": {
     "diff": "node src/index.js",
     "prettify": "prettier . --write",
-    "flush": "git reset HEAD~1"
+    "flush": "git reset HEAD~1",
+    "clean-dir": "rm -rf source/* target/*"
   },
   "repository": {
     "type": "git",
