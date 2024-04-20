@@ -19,6 +19,6 @@ export async function processMock(file, folder, url) {
 export function processDiff() {
   execSync(`git add source target`);
   console.log('Stage source and target files');
-  execSync(`git commit -m "Temp commit of source and target folder ${Date.now()})}"`);
+  execSync(`git commit -m "Temp commit of source and target folder ${Date.now()}"`);
   execSync(`cp -R source/* target/`);
 }
