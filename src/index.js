@@ -14,27 +14,27 @@ const questions = [
     type: 'input',
     name: 'baseUrl',
     message: 'Enter base URL:',
-    default: 'https://sample.com/api/',
+    default: 'https://sample.com/api/'
   },
 ];
 
 async function main() {
-  checkAllDuplicates(sourceFolder);
-  // inquirer
-  //   .prompt(questions)
-  //   .then(async (answers) => {
-  //     const { baseUrl } = answers;
-  //     await Promise.all([makeFolder(sourceFolder), makeFolder(targetFolder)]);
-  //     await genDiff(baseUrl);
-  //   })
-  //   .catch((error) => {
-  //     console.error('Error occurred:', error);
-  //     process.exit(1);
-  //   });
+  inquirer
+    .prompt(questions)
+    .then(async (answers) => {
+      const { baseUrl } = answers;
+      await Promise.all([makeFolder(sourceFolder), makeFolder(targetFolder)]);
+      await genDiff(baseUrl);
+    })
+    .catch((error) => {
+      console.error('Error occurred:', error);
+      process.exit(1);
+    });
 }
 
 async function genDiff(baseUrl) {
   await Promise.all([processMock(sourceFile, sourceFolder, baseUrl), processMock(targetFile, targetFolder, baseUrl)]);
+  await checkAllDuplicates(sourceFolder);
   await processDiff();
 }
 
