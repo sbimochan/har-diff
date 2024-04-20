@@ -44,10 +44,10 @@ To view the differences in the API responses directly in VS Code's source contro
 ### Final step
 
 After being satisfied with the result, hit
+
 ```
 npm run flush
 ```
-
 
 ## Contributing
 
