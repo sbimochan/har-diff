@@ -34,7 +34,7 @@ async function main() {
 
 async function genDiff(baseUrl) {
   await Promise.all([processMock(sourceFile, sourceFolder, baseUrl), processMock(targetFile, targetFolder, baseUrl)]);
-  await crushDuplicateFiles(sourceFolder);
+  await Promise.all([crushDuplicateFiles(sourceFolder), crushDuplicateFiles(targetFolder)])
   await processDiff();
 }
 
