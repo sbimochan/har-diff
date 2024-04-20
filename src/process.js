@@ -1,12 +1,13 @@
 import { execSync } from 'child_process';
-import { crushDuplicateFiles } from './check-duplicates';
+
+import { crushDuplicateFiles } from './check-duplicates.js';
 
 export async function processMock(file, folder, url) {
   try {
     const mockGenerator = `~/projects/har-to-mocks/bin/run ./${file} ./${folder} --url=${url} --uniqueFiles`;
     await execSync(mockGenerator);
     console.log('Mocks generated. Sorting all json files');
-    await crushDuplicateFiles(folder)
+    await crushDuplicateFiles(folder);
     await execSync(`npx json-sort-cli ${folder}*`);
     console.log('Sorting files completed');
   } catch (error) {

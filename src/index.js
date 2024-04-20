@@ -2,7 +2,6 @@ import inquirer from 'inquirer';
 
 import { makeFolder } from './folder.js';
 import { processDiff, processMock } from './process.js';
-import { crushDuplicateFiles } from './check-duplicates.js';
 
 const sourceFile = 'source.har';
 const sourceFolder = 'source';
@@ -14,7 +13,7 @@ const questions = [
     type: 'input',
     name: 'baseUrl',
     message: 'Enter base URL:',
-    default: 'https://sample.com/api/'
+    default: 'https://sample.com/api/',
   },
 ];
 
