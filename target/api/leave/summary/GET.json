@@ -1,0 +1,11 @@
+{
+  "data": {
+    "leave": {
+      "approved": 19,
+      "rejected": 1
+    },
+    "worklog": {
+      "approved": 208
+    }
+  }
+}

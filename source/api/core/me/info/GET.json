@@ -1,0 +1,56 @@
+{
+  "data": {
+    "notices": [
+      {
+        "description": null,
+        "endDate": "2024-08-31",
+        "id": 12,
+        "redirectUrl": "https://docs.google.com/forms/d/e/1FAIpQLSffWC0jzih95QMQl8NTsqS6GWFfbRKZCDx4X0uTznfA_B9Mtg/viewform",
+        "startDate": "2024-02-27",
+        "title": "Request your WFO during weekends and company holidays through this form"
+      }
+    ],
+    "permissions": {
+      "avatarUrl": "https://images.vyaguta.lftechnology.com/employee/48/338.png",
+      "email": "bimochanshrestha@lftechnology.com",
+      "empId": "338",
+      "empStatus": "Permanent",
+      "firstName": "Bimochan",
+      "lastName": "Shrestha",
+      "middleName": null,
+      "permissions": [
+        "employees.projects.history.view",
+        "stats.topTenLeaves.view",
+        "allocations.create",
+        "allocations.update",
+        "allocations.delete",
+        "projects.create",
+        "projects.update",
+        "reports.view",
+        "risks.fullView",
+        "phases.create",
+        "phases.update",
+        "attendance.all.view",
+        "worklog.billing.view",
+        "projects.export",
+        "stakeholder.export",
+        "company.export",
+        "stakeholder.view",
+        "stakeholder.create",
+        "stakeholder.update",
+        "stakeholder.delete",
+        "company.view",
+        "company.create",
+        "company.update",
+        "company.delete",
+        "staffing.view",
+        "staffing.create",
+        "staffing.delete",
+        "worklog.report.export",
+        "check-ins.create"
+      ],
+      "userId": 228
+    },
+    "reminders": []
+  }
+}
