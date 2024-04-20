@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 
 export async function processMock(file, folder, url) {
   try {
-    const mockGenerator = `npx har-to-mocks ./${file} ./${folder} --url=${url}`;
+    const mockGenerator = `~/projects/har-to-mocks/bin/run ./${file} ./${folder} --url=${url} --uniqueFiles`;
     await execSync(mockGenerator);
     console.log('Mocks generated. Sorting all json files');
     await execSync(`npx json-sort-cli ${folder}*`);
