@@ -61,7 +61,7 @@ async function deleteDuplicateFiles(folder) {
   }
 }
 
-export async function checkAllDuplicates(folderToSearch) {
+export async function crushDuplicateFiles(folderToSearch) {
   deleteDuplicateFiles(folderToSearch)
     .then(() => {
       console.log('Duplicate files deleted successfully.');

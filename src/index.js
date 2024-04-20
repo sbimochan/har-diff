@@ -2,7 +2,7 @@ import inquirer from 'inquirer';
 
 import { makeFolder } from './folder.js';
 import { processDiff, processMock } from './process.js';
-import { checkAllDuplicates } from './check-duplicates.js';
+import { crushDuplicateFiles } from './check-duplicates.js';
 
 const sourceFile = 'source.har';
 const sourceFolder = 'source';
@@ -34,7 +34,7 @@ async function main() {
 
 async function genDiff(baseUrl) {
   await Promise.all([processMock(sourceFile, sourceFolder, baseUrl), processMock(targetFile, targetFolder, baseUrl)]);
-  await checkAllDuplicates(sourceFolder);
+  await crushDuplicateFiles(sourceFolder);
   await processDiff();
 }
 
