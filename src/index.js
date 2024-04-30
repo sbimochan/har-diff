@@ -33,7 +33,7 @@ async function main() {
 
 async function genDiff(baseUrl) {
   await Promise.all([processMock(sourceFile, sourceFolder, baseUrl), processMock(targetFile, targetFolder, baseUrl)]);
-  await processDiff();
+  // await processDiff();
 }
 
 main();
