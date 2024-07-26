@@ -11,6 +11,7 @@ To install the API Response Validator Tool, follow these steps:
 1. Clone this repository to your local machine.
 2. Install the necessary dependencies by running `npm install`.
 3. Ensure that you have Node.js and git installed on your machine.
+4. This has a dependency of a forked version of har-to-mocks. Clone this repo in the directory [har-to-mocks](https://github.com/sbimochan/har-to-mocks)
 
 ## Usage
 
