@@ -1,0 +1,119 @@
+{
+  "data": {
+    "notices": [],
+    "permissions": {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/338.png",
+      "email": "bimochanshrestha@lftechnology.com",
+      "empId": "338",
+      "empStatus": "Permanent",
+      "firstName": "Bimochan",
+      "lastName": "Shrestha",
+      "middleName": null,
+      "permissions": [
+        "employees.projects.history.view",
+        "stats.topTenLeaves.view",
+        "allocations.create",
+        "allocations.update",
+        "allocations.delete",
+        "projects.create",
+        "projects.update",
+        "reports.view",
+        "risks.fullView",
+        "phases.create",
+        "phases.update",
+        "attendance.all.view",
+        "worklog.billing.view",
+        "projects.export",
+        "stakeholder.export",
+        "company.export",
+        "stakeholder.view",
+        "stakeholder.create",
+        "stakeholder.update",
+        "stakeholder.delete",
+        "company.view",
+        "company.create",
+        "company.update",
+        "company.delete",
+        "staffing.view",
+        "staffing.create",
+        "staffing.delete",
+        "worklog.report.export",
+        "check-ins.create",
+        "expiredPotentialEndDateHighlight.view"
+      ],
+      "userId": 228
+    },
+    "reminders": [],
+    "user": {
+      "availabilityTime": {
+        "endTime": "06:00",
+        "endTimeType": "PM",
+        "startTime": "09:00",
+        "startTimeType": "AM"
+      },
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/338.png",
+      "birthday": "Sep 12",
+      "bloodGroup": "A+",
+      "coach": null,
+      "country": "Nepal",
+      "cvUrl": "https://docs.google.com/document/d/1KFxM6IAVuh9WnbjyPVI2mDazZ8upN2fpyX3u7SNFl1A/edit?usp=sharing",
+      "dateofBirth": "1994-09-12 00:00:00",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 25,
+          "name": "Development"
+        },
+        "id": 51,
+        "name": "Lead Engineer"
+      },
+      "email": "bimochanshrestha@lftechnology.com",
+      "emergencyContactRelationship": "Father",
+      "emergencyPhone": "9841521342",
+      "empId": "338",
+      "empStatus": "Permanent",
+      "firstName": "Bimochan",
+      "gender": "MALE",
+      "githubId": "sbimochan",
+      "homePhone": "9841588259",
+      "id": 228,
+      "isSubscribed": false,
+      "joinDate": "2017-12-04 00:00:00",
+      "lastName": "Shrestha",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/611.png",
+        "email": "rikeshshrestha@lftechnology.com",
+        "empId": "611",
+        "firstName": "Rikesh",
+        "id": 502,
+        "lastName": "Shrestha",
+        "middleName": "Lal"
+      },
+      "maritialStatus": "Single",
+      "middleName": null,
+      "mobilePhone": "9849215262",
+      "pastExperience": 12,
+      "permanentAddress": "Madhyapur Thimi, Bhaktapur",
+      "personalEmail": "sbimochan@gmail.com",
+      "recruiteeUrl": null,
+      "scheduledType": "FULL_TIME",
+      "skills": null,
+      "skypeId": "sbimochan",
+      "supervisor": null,
+      "teamManager": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/611.png",
+        "email": "rikeshshrestha@lftechnology.com",
+        "firstName": "Rikesh",
+        "id": 502,
+        "lastName": "Shrestha",
+        "middleName": "Lal"
+      },
+      "temporaryAddress": "Madhyapur Thimi, Bhaktapur",
+      "timezone": "+05:45",
+      "workingShift": "DAY_SHIFT"
+    }
+  }
+}

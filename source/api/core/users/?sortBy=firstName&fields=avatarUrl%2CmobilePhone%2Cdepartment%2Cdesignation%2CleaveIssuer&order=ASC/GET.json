@@ -1,0 +1,310 @@
+{
+  "data": [
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1128.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 21,
+          "name": "Project Management"
+        },
+        "id": 12,
+        "name": "Associate Project Manager"
+      },
+      "email": "aakrititiwari@lftechnology.com",
+      "empId": "1128",
+      "firstName": "Aakriti",
+      "id": 911,
+      "lastName": "Tiwari",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/334.png",
+        "email": "sachitshrestha@lftechnology.com",
+        "empId": "334",
+        "firstName": "Sachit",
+        "id": 223,
+        "lastName": "Shrestha",
+        "middleName": null
+      },
+      "mobilePhone": "9765978729"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/749.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 21,
+          "name": "Project Management"
+        },
+        "id": 12,
+        "name": "Associate Project Manager"
+      },
+      "email": "aarzooamatya@lftechnology.com",
+      "empId": "749",
+      "firstName": "Aarzoo",
+      "id": 636,
+      "lastName": "Amatya",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/358.png",
+        "email": "sawanvaidya@lftechnology.com",
+        "empId": "358",
+        "firstName": "Sawan",
+        "id": 249,
+        "lastName": "Vaidya",
+        "middleName": null
+      },
+      "mobilePhone": "9849086951"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/726.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 25,
+          "name": "Development"
+        },
+        "id": 4,
+        "name": "Senior Software Engineer"
+      },
+      "email": "aashushakya@lftechnology.com",
+      "empId": "726",
+      "firstName": "Aashu",
+      "id": 643,
+      "lastName": "Shakya",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1141.png",
+        "email": "reginapradhan@lftechnology.com",
+        "empId": "1141",
+        "firstName": "Regina",
+        "id": 935,
+        "lastName": "Pradhan",
+        "middleName": null
+      },
+      "mobilePhone": "9849808313"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1237.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 37,
+          "name": "Staff Management "
+        },
+        "id": 82,
+        "name": "Manager"
+      },
+      "email": "aavasparajuli@lftechnology.com",
+      "empId": "1237",
+      "firstName": "Aavas",
+      "id": 1031,
+      "lastName": "Parajuli",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/133.png",
+        "email": "saugatgautam@lftechnology.com",
+        "empId": "133",
+        "firstName": "Saugat",
+        "id": 73,
+        "lastName": "Gautam",
+        "middleName": null
+      },
+      "mobilePhone": "9841665381"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/829.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 25,
+          "name": "Development"
+        },
+        "id": 3,
+        "name": "Software Engineer"
+      },
+      "email": "aayushshrestha@lftechnology.com",
+      "empId": "829",
+      "firstName": "Aayush",
+      "id": 711,
+      "lastName": "Shrestha",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1186.png",
+        "email": "ujjwolshakya@lftechnology.com",
+        "empId": "1186",
+        "firstName": "Ujjwol",
+        "id": 980,
+        "lastName": "Shakya",
+        "middleName": null
+      },
+      "mobilePhone": "9861591638"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1021.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 25,
+          "name": "Development"
+        },
+        "id": 3,
+        "name": "Software Engineer"
+      },
+      "email": "aayushmusyaju@lftechnology.com",
+      "empId": "1021",
+      "firstName": "Aayush",
+      "id": 805,
+      "lastName": "Musyaju",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/437.png",
+        "email": "shradayshakya@lftechnology.com",
+        "empId": "437",
+        "firstName": "Shraday",
+        "id": 326,
+        "lastName": "Shakya",
+        "middleName": null
+      },
+      "mobilePhone": "9860589165"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1035.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 25,
+          "name": "Development"
+        },
+        "id": 4,
+        "name": "Senior Software Engineer"
+      },
+      "email": "aayushkarn@lftechnology.com",
+      "empId": "1035",
+      "firstName": "Aayush",
+      "id": 816,
+      "lastName": "Karn",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/674.png",
+        "email": "lokeshpant@lftechnology.com",
+        "empId": "674",
+        "firstName": "Lokesh",
+        "id": 571,
+        "lastName": "Pant",
+        "middleName": null
+      },
+      "mobilePhone": "+14033903451"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1104.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 16,
+          "name": "Data"
+        },
+        "id": 3,
+        "name": "Software Engineer"
+      },
+      "email": "aayushabista@lftechnology.com",
+      "empId": "1104",
+      "firstName": "Aayusha",
+      "id": 887,
+      "lastName": "Bista",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1180.png",
+        "email": "rojinpradhananga@lftechnology.com",
+        "empId": "1180",
+        "firstName": "Rojin",
+        "id": 974,
+        "lastName": "Pradhananga",
+        "middleName": null
+      },
+      "mobilePhone": "9860898009"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/310.png",
+      "department": {
+        "id": 1,
+        "name": "Operations"
+      },
+      "designation": {
+        "area": {
+          "id": 15,
+          "name": "Product Design"
+        },
+        "id": 93,
+        "name": "Director"
+      },
+      "email": "abhashthapa@lftechnology.com",
+      "empId": "310",
+      "firstName": "Abhash",
+      "id": 199,
+      "lastName": "Thapa",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/102.png",
+        "email": "kailashraj@lftechnology.com",
+        "empId": "102",
+        "firstName": "Kailash",
+        "id": 34,
+        "lastName": "Bijayananda",
+        "middleName": "Raj"
+      },
+      "middleName": "Bikram",
+      "mobilePhone": "9851192491"
+    },
+    {
+      "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1016.png",
+      "department": {
+        "id": 17,
+        "name": "Engineering"
+      },
+      "designation": {
+        "area": {
+          "id": 25,
+          "name": "Development"
+        },
+        "id": 3,
+        "name": "Software Engineer"
+      },
+      "email": "abhigyandhakal@lftechnology.com",
+      "empId": "1016",
+      "firstName": "Abhigyan",
+      "id": 801,
+      "lastName": "Dhakal",
+      "leaveIssuer": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/1180.png",
+        "email": "rojinpradhananga@lftechnology.com",
+        "empId": "1180",
+        "firstName": "Rojin",
+        "id": 974,
+        "lastName": "Pradhananga",
+        "middleName": null
+      },
+      "mobilePhone": "9840437555"
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "size": 10,
+    "total": 424
+  }
+}

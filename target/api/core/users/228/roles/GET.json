@@ -1,0 +1,18 @@
+{
+  "data": {
+    "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/338.png",
+    "email": "bimochanshrestha@lftechnology.com",
+    "empId": "338",
+    "empStatus": "Permanent",
+    "firstName": "Bimochan",
+    "lastName": "Shrestha",
+    "middleName": null,
+    "roles": [
+      {
+        "id": 7,
+        "name": "Project Manager"
+      }
+    ],
+    "userId": 228
+  }
+}

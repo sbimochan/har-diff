@@ -1,0 +1,362 @@
+{
+  "data": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "categoryId": 2,
+              "children": [
+                {
+                  "categoryId": 2,
+                  "id": 57,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/118587431/Go-To+Person",
+                  "linkWeight": 1,
+                  "name": "Go to person",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 58,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/3632922631/Company+Vision+Mission+Strategies",
+                  "linkWeight": 2,
+                  "name": "Leapfrog's Vision & Mission",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 59,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4157997242/Year+2024+-+Company+Strategies+High+Level+Objectives",
+                  "linkWeight": 3,
+                  "name": "Strategies and High Level Objectives",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 60,
+                  "linkUrl": "https://vyaguta.lftechnology.com/organization-chart/global-chart",
+                  "linkWeight": 4,
+                  "name": "Organizational Charts",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 61,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/3720871946/OKR+at+Leapfrog",
+                  "linkWeight": 5,
+                  "name": "OKRs at Leapfrog",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 62,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4224876555/Policy+Process+Development+and+Communication+Guidelines",
+                  "linkWeight": 6,
+                  "name": "Leapfrog Policy/ Process Development and Communication Guidelines",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 91,
+                  "linkUrl": "https://docs.google.com/forms/d/e/1FAIpQLSffWC0jzih95QMQl8NTsqS6GWFfbRKZCDx4X0uTznfA_B9Mtg/formResponse",
+                  "linkWeight": 7,
+                  "name": "Communication for WFO on Weekends/Company Holidays",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 63,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/SEC/pages/4064903282/Information+Security+Policy",
+                  "linkWeight": 8,
+                  "name": "Information Security policy",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 64,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2367586341/Benefits+-+Nepal",
+                  "linkWeight": 9,
+                  "name": "Benefit Plans",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 65,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/5833026/Company+Holidays",
+                  "linkWeight": 10,
+                  "name": "Company Calendar",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 2,
+                  "id": 95,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LD/pages/4318298131",
+                  "linkWeight": 12,
+                  "name": "Learning Program Request Process",
+                  "type": "link"
+                }
+              ],
+              "type": "link"
+            }
+          ],
+          "id": 2,
+          "name": "Leapfrog",
+          "parentId": 1,
+          "type": "subCategory",
+          "weight": 1
+        },
+        {
+          "children": [
+            {
+              "categoryId": 3,
+              "children": [
+                {
+                  "categoryId": 3,
+                  "id": 67,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/3971055677/Leapfrog+Code+of+Conduct#Elements-of-Leapfrog-Code-of-Conduct",
+                  "linkWeight": 1,
+                  "name": "Code of Conduct",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 66,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4169498704/Worklog+Guidelines",
+                  "linkWeight": 2,
+                  "name": "Worklog Guidelines",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 79,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4221141104/Shift+Stipend",
+                  "linkWeight": 3,
+                  "name": "Shift Stipend Policy",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 68,
+                  "linkUrl": "https://docs.google.com/forms/d/e/1FAIpQLSffWC0jzih95QMQl8NTsqS6GWFfbRKZCDx4X0uTznfA_B9Mtg/viewform",
+                  "linkWeight": 4,
+                  "name": "WFO During Weekends/Holidays",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 69,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/1907392738/Work+From+Home+WFH+guideline",
+                  "linkWeight": 5,
+                  "name": "Work From Home (WFH)",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 70,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/3971055677/Leapfrog+Code+of+Conduct#WFO-Schedule-Adherence",
+                  "linkWeight": 6,
+                  "name": "Work From Office (WFO)",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 71,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2803859471/Overview+of+Leave+types+and+process+-+Nepal#Discretionary-Leave",
+                  "linkWeight": 7,
+                  "name": "Discretionary leave",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 72,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2803859471/Overview+of+Leave+types+and+process+-+Nepal#%5BhardBreak%5DCompensatory-Leave",
+                  "linkWeight": 8,
+                  "name": "Compensatory leave",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 73,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2803859471/Overview+of+Leave+types+and+process+-+Nepal#LWOP-(Leave-Without-Pay)",
+                  "linkWeight": 9,
+                  "name": "Leave Without Pay (LWOP)",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 74,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2803859471/Overview+of+Leave+types+and+process+-+Nepal#Sick-Leave",
+                  "linkWeight": 10,
+                  "name": "Sick leave",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 75,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2803859471/Overview+of+Leave+types+and+process+-+Nepal#Menstruation-Leave",
+                  "linkWeight": 11,
+                  "name": "Menstruation leave",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 76,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2803859471/Overview+of+Leave+types+and+process+-+Nepal#Bereavement-Leave",
+                  "linkWeight": 12,
+                  "name": "Bereavement leave",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 77,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/2803859471/Overview+of+Leave+types+and+process+-+Nepal#%5BhardBreak%5DMaternity-Leave",
+                  "linkWeight": 13,
+                  "name": "Maternity/Paternity Leave",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 3,
+                  "id": 78,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4096884985/Company+Holiday+Nepal+2023+24",
+                  "linkWeight": 14,
+                  "name": "Public Holidays",
+                  "type": "link"
+                }
+              ],
+              "type": "link"
+            }
+          ],
+          "id": 3,
+          "name": "Attendance",
+          "parentId": 1,
+          "type": "subCategory",
+          "weight": 2
+        },
+        {
+          "children": [
+            {
+              "categoryId": 4,
+              "children": [
+                {
+                  "categoryId": 4,
+                  "id": 81,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4094361630/SSF+and+CIT+Activation",
+                  "linkWeight": 1,
+                  "name": "SSF and CIT Activation",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 83,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4035412163/Pulse",
+                  "linkWeight": 2,
+                  "name": "Pulse ",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 82,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/1328054320/Career+Paths",
+                  "linkWeight": 3,
+                  "name": "Career Path",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 84,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4136140987/Annual+Employee+Performance+Appraisal+Policy",
+                  "linkWeight": 4,
+                  "name": "Annual Employee Performance Appraisal Policy",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 85,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4038295792/Promotion",
+                  "linkWeight": 5,
+                  "name": "Promotion",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 86,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/3757572097/5+Year+Appreciation+Device+Policy",
+                  "linkWeight": 6,
+                  "name": "5 Year Appreciation Device Policy",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 87,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4120477820/Employee+Transition+Plan",
+                  "linkWeight": 7,
+                  "name": "Employee Transition Plan",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 88,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/3364159658/About+mental+health+counseling+session",
+                  "linkWeight": 8,
+                  "name": "Mental well being",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 89,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4123721731/Physical+Wellbeing",
+                  "linkWeight": 9,
+                  "name": "Physical well-being",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 80,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4174938162/Company+Onboarding+Journey+Day+1+-+Day+5",
+                  "linkWeight": 10,
+                  "name": "Engagement Plan",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 90,
+                  "linkUrl": "https://lftechnology.atlassian.net/wiki/spaces/LEAP/pages/4110155791/Offboarding+Policy",
+                  "linkWeight": 11,
+                  "name": "Resignation Policy (Nepal)",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 92,
+                  "linkUrl": "https://docs.google.com/presentation/d/e/2PACX-1vQF4IbjYY70r5XQqWh0Y7RvtCXxe26cL-tP304KSKB0YZUHTQeTloMuDElaa1WqYLOZPQByKAIuim_W/embed?start=false&loop=true&delayms=10000&slide=id.g1b25d7bee5f_4_3",
+                  "linkWeight": 12,
+                  "name": "Lunch and snacks menu",
+                  "type": "link"
+                },
+                {
+                  "categoryId": 4,
+                  "id": 94,
+                  "linkUrl": "https://docs.google.com/forms/d/e/1FAIpQLSciKxzPN_zP7R9ebDcd5Gn3LT8mlj3YXUBOUk_dw8p-scNlCw/viewform",
+                  "linkWeight": 13,
+                  "name": "Learning Program Request Form",
+                  "type": "link"
+                }
+              ],
+              "type": "link"
+            }
+          ],
+          "id": 4,
+          "name": "Leapfroggers",
+          "parentId": 1,
+          "type": "subCategory",
+          "weight": 3
+        }
+      ],
+      "id": 1,
+      "name": "Most Accessed Links",
+      "parentId": null,
+      "type": "category",
+      "weight": 2
+    }
+  ]
+}

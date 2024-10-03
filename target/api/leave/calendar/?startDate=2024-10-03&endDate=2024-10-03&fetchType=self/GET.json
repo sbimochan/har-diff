@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "date": "2024-10-03",
+      "employee": {
+        "avatarUrl": "https://prod-image.vyaguta.lftechnology.com/employee/48/338.png",
+        "email": "bimochanshrestha@lftechnology.com",
+        "empId": "338",
+        "fullname": "Bimochan Shrestha",
+        "id": 228,
+        "timezone": "+05:45"
+      },
+      "holiday": null,
+      "isWeekend": 0,
+      "leave": null,
+      "leaveIssuer": {
+        "email": "rikeshshrestha@lftechnology.com",
+        "empId": "611",
+        "fullname": "Rikesh Shrestha",
+        "id": 502
+      },
+      "totalCount": 1,
+      "worklog": {
+        "id": 384494,
+        "location": "OFFICE",
+        "status": "PENDING",
+        "totalDuration": 0
+      }
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "size": 1,
+    "total": 1
+  }
+}
