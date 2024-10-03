@@ -4,7 +4,7 @@ import { crushDuplicateFiles } from './check-duplicates.js';
 
 export async function processMock(file, folder, url) {
   try {
-    const mockGenerator = `har-to-mocks ./${file} ./${folder} --method=GET --method=POST --method=PUT --method=DELETE --method=PATCH --url=${url} --uniqueFiles`;
+    const mockGenerator = `har2mocks ./${file} ./${folder} --method=GET --method=POST --method=PUT --method=DELETE --method=PATCH --url=${url} --uniqueFiles`;
     await execSync(mockGenerator);
     console.log('Mocks generated. Sorting all json files');
     await crushDuplicateFiles(folder);
