@@ -4,6 +4,10 @@
 
 The API Response Validator Tool is a command-line utility designed to facilitate comparing API responses between two versions of your backend infrastructure. It helps ensure that the changes made in the database infrastructure do not inadvertently affect the API responses. The tool generates and compares mock API responses, providing insights into any discrepancies between the versions of HTTP Archive (HAR).
 
+## Application
+
+If you're migrating your database engine and want to assure that beside any dialects or database engines you want the data response to be exact same, you can use this tool. No need to tally all the data manually. Spin off two frontend apps using two different database engines (old and new). Open them in two browser tabs, Fire up your network tab, navigate to all the features you want to test. Download HAR(Http Archive) files from each tab naming source.har and target.har. Next steps below.
+
 ## Installation
 
 To install the API Response Validator Tool, follow these steps:
