@@ -1,10 +1,10 @@
+use regex::Regex;
 use serde::Deserialize;
 use serde_json::Value;
-use regex::Regex;
+use std::env;
 use std::fs::{self, File};
 use std::io::{BufReader, Write};
 use std::path::{Path, PathBuf};
-use std::env;
 
 // --- Configuration Struct ---
 
@@ -86,7 +86,9 @@ fn normalize_json(value: &mut Value, ignore_keys: &[String]) {
 fn parameterize_url(method: &str, url_str: &str) -> String {
     let base_url = url_str.split('?').next().unwrap_or(url_str);
 
-    let uuid_regex = Regex::new(r"/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}").unwrap();
+    let uuid_regex =
+        Regex::new(r"/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}")
+            .unwrap();
     let numeric_id_regex = Regex::new(r"/\d+").unwrap();
 
     let parameterized = uuid_regex.replace_all(base_url, "/:uuid");
@@ -97,7 +99,7 @@ fn parameterize_url(method: &str, url_str: &str) -> String {
         .trim_start_matches("http://");
 
     let file_safe = clean_path.replace(['/', ':', '.', ' '], "_");
-    
+
     format!("{}__{}.json", method.to_uppercase(), file_safe)
 }
 
@@ -119,9 +121,20 @@ fn load_config() -> AppConfig {
     // Default fallbacks if file is absent or corrupted
     AppConfig {
         ignore_keys: vec![
-            "timestamp", "updated_at", "created_at", "createdAt", "updatedAt",
-            "duration_ms", "responseTime", "sessionId", "token", "nonce"
-        ].into_iter().map(String::from).collect(),
+            "timestamp",
+            "updated_at",
+            "created_at",
+            "createdAt",
+            "updatedAt",
+            "duration_ms",
+            "responseTime",
+            "sessionId",
+            "token",
+            "nonce",
+        ]
+        .into_iter()
+        .map(String::from)
+        .collect(),
         ignore_routes: vec![],
     }
 }
@@ -129,13 +142,13 @@ fn load_config() -> AppConfig {
 // --- File Execution Pipeline ---
 
 fn process_har_file(
-    file_path: &Path, 
-    output_dir: &Path, 
-    config: &AppConfig
+    file_path: &Path,
+    output_dir: &Path,
+    config: &AppConfig,
 ) -> Result<usize, Box<dyn std::error::Error>> {
     let file = File::open(file_path)?;
     let reader = BufReader::new(file);
-    
+
     let har: HarRoot = serde_json::from_reader(reader)?;
     let mut written_count = 0;
 
@@ -144,21 +157,20 @@ fn process_har_file(
             if mime.contains("application/json") {
                 if let Some(ref raw_text) = entry.response.content.text {
                     if let Ok(mut json_value) = serde_json::from_str::<Value>(raw_text) {
-                        
                         let filename = parameterize_url(&entry.request.method, &entry.request.url);
-                        
+
                         // Drop processing if the path matches the user blocklist
                         if config.ignore_routes.contains(&filename) {
                             continue;
                         }
 
                         normalize_json(&mut json_value, &config.ignore_keys);
-                        
+
                         let output_file_path = output_dir.join(filename);
                         let mut out_file = File::create(output_file_path)?;
                         let pretty_json = serde_json::to_string_pretty(&json_value)?;
                         out_file.write_all(pretty_json.as_bytes())?;
-                        
+
                         written_count += 1;
                     }
                 }
