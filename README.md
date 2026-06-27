@@ -57,12 +57,8 @@ git diff --no-index .hardiff/workspace/source .hardiff/workspace/target
 
 OR open it in your browser:
 
-install `diff2html`
+> Uses diff2html-cli
 
 ```bash
-npm install -g diff2html-cli
-```
-
-```bash
-git diff --no-index .hardiff/workspace/source .hardiff/workspace/target | diff2html -i stdin
+git diff --no-index .hardiff/workspace/source .hardiff/workspace/target | npx --package=diff2html-cli diff2html -i stdin
 ```
