@@ -1,0 +1,14 @@
+{
+  "ignore_keys": [
+    "timestamp",
+    "updated_at",
+    "created_at",
+    "duration_ms",
+    "session_id",
+    "token"
+  ],
+  "ignore_routes": [
+    "POST__api_v1_telemetry.json",
+    "GET__healthz.json"
+  ]
+}
