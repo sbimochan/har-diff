@@ -1,0 +1,5 @@
+target/**
+.hardiff
+*.har
+!source_capture.har
+!target_capture.har
